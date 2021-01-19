@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matthew Martin</title>
-    <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
-</head>
-<body class="p-16">
-    Hi
-</body>
+
+    <head>
+        <title>Matthew Martin</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://resources.izmichael.xyz/assets/tailwind2.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="/assets/js/main.js"></script>
+        <link rel="stylesheet" href="/assets/styles.css">
+    </head>
+
+    <body class="flex flex-col items-center justify-start w-full overflow-x-hidden">
+        <div class="flex flex-col items-center justify-center w-full h-screen text-white" id="hero">
+            <h1 class="mb-4 text-6xl font-stnd">Matthew Martin</h1>
+            <h1 class="text-4xl">matt plaz | TheBaconPig | mm22tiger</h1>
+            <p class="text-6xl justify-self-end" onclick="scrollToID('whatIdo')">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="50" width="50" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </p>
+        </div>
+        <div class="flex flex-row items-center justify-center w-full h-64" id="whatIdo">
+            <div class="w-32 h-full" id="whatIdoLeft"></div>
+            <div class="flex flex-row items-center justify-center buttonGroup whatIdoBtns h-full gap-5 flex-1">
+                <a href="https://twitter.com/TheBaconPig_"
+                    class="flex flex-col items-center justify-center flex-1 gap-2 p-5 px-10 bg-blue-400 rounded-md shadow-xl">
+                    <h1 class="text-xl">Twitter</h1>
+                    <p class="italic text-gray-700">@TheBaconPig_</p>
+                </a>
+                <a href="https://blog.matthewmartin.xyz"
+                    class="flex flex-col items-center justify-center flex-1 gap-2 p-5 px-10 bg-yellow-600 rounded-md shadow-xl">
+                    <h1 class="text-xl">Blog</h1>
+                    <p class="italic text-gray-700">Matt Blogs</p>
+                </a>
+                <a href="https://twitter.com/TheBaconPig_"
+                    class="flex flex-col items-center justify-center flex-1 gap-2 p-5 px-10 bg-gray-800 rounded-md shadow-xl">
+                    <h1 class="text-xl text-white">GitHub</h1>
+                    <p class="italic text-gray-300">@mm22tiger</p>
+                </a>
+                <a href="https://www.youtube.com/channel/UCx_v3IT_rejG-ustqRxA1QA"
+                    class="flex flex-col items-center justify-center flex-1 gap-2 p-5 px-10 bg-red-600 rounded-md shadow-xl">
+                    <h1 class="text-xl text-white">YouTube</h1>
+                    <p class="italic text-gray-300">matt plaz gaming</p>
+                </a>
+            </div>
+            <div class="w-32 h-full" id="whatIdoRight"></div>
+        </div>
+        <div class="flex flex-row justify-between items-center p-8 w-full">
+            <h1 class="text-xl">&copy; Matthew Martin 2021</h1>
+            <h1 class="text-xl">Designed by <a href="https://izmichael.xyz">IzMichael</a></h1>
+        </div>
+    </body>
+
 </html>

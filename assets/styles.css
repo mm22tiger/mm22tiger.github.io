@@ -1,0 +1,20 @@
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#whatIdoLeft {
+    background-color: #60a5fa;
+}
+
+.whatIdoBtns {
+    background: rgb(96,165,250);
+    background: linear-gradient(90deg, rgba(96,165,250,1) 8%, rgba(217,119,6,1) 37%, rgba(82,56,26,1) 50%, rgba(31,41,55,1) 62%, rgba(220,38,38,1) 92%);
+}
+
+#whatIdoRight {
+    background-color: #dc2626;
+}
